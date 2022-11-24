@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Segoe+UI&family=Xanh+Mono:ital@0;1&display=swap');
+/* @import '_Mixin';
+$mainBackColor:#272b30;
+$mainColor:#aaa; */
+
+/* @import loginimg from '../images/gaming.ebaf2ffc84f4451d.jpg'; */
+
+body{
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  padding-top: 60px;
+  color: #aaa;
+  background-color: #272b30;
+}
+
+.navbar-brand{
+  font-family: Xanh Mono,monospace;
+}
+.navbar{
+  background-color: #272b30!important;
+    border-bottom: 1px solid rgba(28,28,28,.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    box-shadow: 0 .125rem .25rem #00000013!important;
+
+}
+.navbar img{
+    width: 70px;
+    filter: drop-shadow(1px 1px 3px #1983e6ce);  
+}
+ .join{
+  color: #4799eb;
+  border-color: #4799eb;
+  background-color: transparent;
+  border-radius: .375rem;
+}
+@media (min-width: 1200px){
+.container{
+    max-width: 1140px;
+}
+}
+
+.loginrow{
+border-radius:.375rem;
+}
+
+.leftside{
+  background-image: url(images/gaming.ebaf2ffc84f4451d.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.rightside{
+  background-color: #32383e;
+}
+.form-control{
+  margin-bottom: 1rem;
+}
+
+.register .form-control{
+  background-color: #1c1e22;
+    border: 0 solid rgba(0,0,0,.6);
+    border-radius: 5px;
+    color: #fff!important;
+}
+.home{
+  background: url(images/paladins.b44d33d6e7ee1ba8.png);
+  background-repeat: no-repeat;
+  background-color: #1c1e22;
+  background-position: top;
+  background-size: contain;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0,0,0,.6);
+  padding: 4rem 2rem;
+}
+.blue{
+  color: #49acff!important;
+}
+.game{
+  cursor: pointer;
+  background-color: #32383e;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.6);
+  border-radius: 0.25rem;
+}
+.game:hover{
+  transition: all .2s ease-in-out;
+}
+
+.badge{
+  background-color: #4799EB;
+}
+.btndark{
+  color: #aaa;
+    background-color: #32383e;
+    border-color: #32383e;
+}
+.btnblue{
+  background-image: linear-gradient(#4799eb,#4799eb 60%,#49acff);
+  background-repeat: no-repeat;
+  filter: none;
+  color: #fff;
+  background-color: #4799eb;
+  border-color: #4799eb;
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media (min-width: 1200px){
+  h1 {
+    font-size: 2.5rem;
+}
+}
+NaveLink{
+  text-decoration: none !important;
+}
+.carousel-sample{
+  margin: 0 auto 2em;
+  max-width: 500px;
+  height: 300px;
+}
+ .gray{
+  background-color: #7a8288;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  transform: translateY(-12%);
+  border-radius: .375rem;
+  padding-left: .65em;
+  padding-right: .65em;
+  padding-top: .35em;
+  padding-bottom: .35em;
+  font-size: .75em;
+  font-weight: 700;
+ }
+ .graycolor{
+  color:#7a8288 ;
+ }
+ /* ******** */
+
+ .tag {
+  text-align: center;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+/* carsoual arrow left and right */
+.slick-arrow{
+  opacity: 0;
+}
+/* carousal button in bottom */
+.slick-dots{
+  opacity: 0;
+}

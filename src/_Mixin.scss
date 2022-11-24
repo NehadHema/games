@@ -1,0 +1,9 @@
+@mixin  font {
+    font-family: Xanh Mono,monospace;
+}
+
+@mixin addDiminsions($c,$bc ,$bg) {
+    color: $c;
+    border-color: $bc;
+    background-color: $bg;
+}
