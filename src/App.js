@@ -63,7 +63,7 @@ function App() {
         { path: 'popularity', element: <Popularity /> },
         { path: 'alphabetical', element: <Alphabetical /> },
         { path: 'relevance', element: <Relevance /> },
-        { path: '*', element: <NotFound /> }
+        { path: '*', element: <Login/> }
       ]
     }
   ]);

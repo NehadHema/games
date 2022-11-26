@@ -22,12 +22,7 @@ export default function Registeration() {
 
   function validatation() {
     const validateRules = Joi.object({
-      // first_name: Joi.string().alphanum().min(3).max(15).required().messages({
-      //   "string.empty": "first name is required",
-      //   "string.min": "you must be enter at least 3 characters",
-      //   "string.max": "you must be enter at most 15 characters"
-      // }),
-      first_name:Joi.string().alphanum().min(3).max(15).required().required(),
+      first_name:Joi.string().alphanum().min(3).max(15).required(),
       last_name: Joi.string().alphanum().min(3).max(15).required(),
       email: Joi.string().email({ minDomainSegments: 2, tlds: { allow: false } }).required().messages({
         "string.empty": "email is required",
