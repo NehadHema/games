@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/games/static/css/main.17180050.css",
-    "main.js": "/games/static/js/main.04e63c5a.js",
+    "main.css": "/games/static/css/main.1a2c0801.css",
+    "main.js": "/games/static/js/main.4cef5124.js",
     "static/js/787.7f320c1d.chunk.js": "/games/static/js/787.7f320c1d.chunk.js",
     "static/media/fa-solid-900.ttf": "/games/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/paladins.png": "/games/static/media/paladins.b44d33d6e7ee1ba8.0fddd1fbe0a5e0a0af93.png",
@@ -15,12 +15,12 @@
     "static/media/fa-v4compatibility.ttf": "/games/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
     "static/media/fa-v4compatibility.woff2": "/games/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/games/index.html",
-    "main.17180050.css.map": "/games/static/css/main.17180050.css.map",
-    "main.04e63c5a.js.map": "/games/static/js/main.04e63c5a.js.map",
+    "main.1a2c0801.css.map": "/games/static/css/main.1a2c0801.css.map",
+    "main.4cef5124.js.map": "/games/static/js/main.4cef5124.js.map",
     "787.7f320c1d.chunk.js.map": "/games/static/js/787.7f320c1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17180050.css",
-    "static/js/main.04e63c5a.js"
+    "static/css/main.1a2c0801.css",
+    "static/js/main.4cef5124.js"
   ]
 }
