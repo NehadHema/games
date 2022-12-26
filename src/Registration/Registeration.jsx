@@ -57,7 +57,7 @@ export default function Registeration() {
     e.preventDefault();
     if (validatation() !== undefined) {
       setIsLoading(true);
-      let { data } = await axios.post('https://route-egypt-api.herokuapp.com/signup', userRegister);
+      let { data } = await axios.post('https://sticky-note-fe.vercel.app/signup', userRegister);
       setapiMessage(data.message);
 
       if (data.message === 'success') {

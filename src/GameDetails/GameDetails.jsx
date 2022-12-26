@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import axios from 'axios';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-
-
 
 export default function GameDetails() {
 
@@ -89,9 +85,9 @@ export default function GameDetails() {
                     <h4 className='text-captilization mt-4'>{gameObject.title} Screenshots</h4>
                     {images.length > 0 ? <div id="carouselExampleDark" className="carousel carousel-dark slide py-3" data-bs-ride="carousel">
                         <div className="carousel-inner">
-                            {images.map((img, index) => <div key={index} className="carousel-item active" data-bs-interval={1500}>
+                            {images.map((img, index) =>{return<div key={index} className="carousel-item active" data-bs-interval={1500}>
                                 <img src={img.image} alt='' className='w-100'></img>
-                            </div>)}
+                            </div>})}
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true" />
@@ -104,7 +100,7 @@ export default function GameDetails() {
                     </div>
                         : ''}
 
-
+                
                     <h2 className='mb-3'>Additional Information</h2>
                     <div className="row mb-3">
                         <div className="col-md-4 col-6">

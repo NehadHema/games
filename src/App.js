@@ -4,7 +4,6 @@ import Layout from './Layout/Layout';
 import Login from './Login/Login';
 import Registeration from './Registration/Registeration';
 import Home from './Home/Home';
-import NotFound from './NotFound/NotFound';
 import All from './All/All';
 import Categories from './Categories/Categories';
 import Sortby from './Sortby/Sortby';
